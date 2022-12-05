@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>generar y modificar-CETIS NO.84</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+
+<body>
+    <main>
+
+        <div class="contenedor__todo">
+            <div class="caja__trasera">
+                <div class="caja__trasera-login">
+                    <h3>Bienvenido !</h3>
+                    <p>Apartir de aqui ya puedes generar tu credencial escolar</p>
+                    <button id="btn__iniciar-sesion">Generar</button>
+                </div>
+                <div class="caja__trasera-register">
+                    <h3>Bienvenido !</h3>
+                    <p>puedes hacer cambio de cualquier error que se presente</p>
+                    <button id="btn__registrarse">Modificar</button>
+                </div>
+            </div>
+
+            <!--Formulario de Login y registro-->
+            <div class="contenedor__login-register">
+                <!--Login-->
+                <form action="" class="formulario__login">
+                    <h2>Generar credencial</h2>
+                        <label> Seleccione el archivo </label>
+                    <input type="hidden" name="MAX_FILE_SIZE" value="100000" />
+                    <br />
+                    <input name="userfile" type="file" />
+                    <br/>
+                    <input type="text" placeholder="Nombres y Apellidos">
+                    <input type="text" placeholder="Numero de control">
+                    <div class="elem-group">
+                        <label for="department-selection">Elige la especialidad</label>
+                        <select id="department-selection" name="concerned_department" required>
+                            <option value="">Arquitectura</option>
+                            <option value="billing">Logistica</option>
+                            <option value="marketing">Programacion</option>
+                            <option value="technical support">Contabilidad</option>
+                            <option value="technical support">Oftimatica</option>
+                            <option value="technical support">Preparacion de alimentos Y bebidas</option>
+                            <option value="technical support">Hospedage</option>
+                    <input type="text" placeholder="NSS">
+                    <input type="text" placeholder="CURP">
+                        </select>
+                      </div>
+                      <label for="department-selection">Elige el semestre </label>
+                    <input type="checkbox" name="semestre" value="1">1-er semestre  <br>
+                    <input type="checkbox" name="semestre" value="2">2-do semestre <br>
+                    <input type="checkbox" name="semestre" value="3">3-er semestre <br> 
+                    <input type="checkbox" name="semestre" value="3">4-to semestre <br>
+                    <input type="checkbox" name="semestre" value="3">5-to semestre <br>
+                    <input type="checkbox" name="semestre" value="3"> 6-to semestre <br>
+                    <button><a href="../Credenciales/Formulario.html">Generar</button></a>
+                </form>
+
+                <!--Register-->
+                <form action="" class="formulario__register">
+                    <h2>Regístrarse</h2>
+                    <label> Seleccione el archivo </label>
+                    <input type="hidden" name="MAX_FILE_SIZE" value="100000" />
+                    <br />
+                    <input name="userfile" type="file" />
+                    <br/>
+                    <input type="text" placeholder="Nombres">
+                    <input type="text" placeholder="Numero de control">
+                    <div class="elem-group">
+                        <label for="department-selection">Elige la especialidad</label>
+                        <select id="department-selection" name="concerned_department" required>
+                            <option value="">Arquitectura</option>
+                            <option value="billing">Logistica</option>
+                            <option value="marketing">Programacion</option>
+                            <option value="technical support">Contabilidad</option>
+                            <option value="technical support">Oftimatica</option>
+                            <option value="technical support">Preparacion de alimentos Y bebidas</option>
+                            <option value="technical support">Hospedage</option>
+                    <input type="text" placeholder="NSS">
+                    <input type="text" placeholder="CURP">
+                  </select>
+                </div>
+                <label for="department-selection">Elige el semestre </label>
+                    <input type="checkbox" name="semestre" value="1">1-er semestre  <br>
+                    <input type="checkbox" name="semestre" value="2">2-do semestre <br>
+                    <input type="checkbox" name="semestre" value="3">3-er semestre <br> 
+                    <input type="checkbox" name="semestre" value="3">4-to semestre <br>
+                    <input type="checkbox" name="semestre" value="3">5-to semestre <br>
+                    <input type="checkbox" name="semestre" value="3"> 6-to semestre <br>
+                    <button><a href="../Credenciales/Formulario.html">Modificar</button></a>
+                </form>
+            </div>
+        </div>
+
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

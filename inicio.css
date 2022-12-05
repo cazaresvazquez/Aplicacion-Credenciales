@@ -1,0 +1,33 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    background-image: url(../images/descarga.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: bottom;
+    overflow: hidden;
+    height: 150vh;
+}
+
+main .title{
+    border: 1px solid rgba(0, 128, 255, 0.5);
+    width: 80px;
+    height: 60px;
+    text-align:  center;
+    color: rgba(0, 128, 255, 0.5);
+    top: calc(100vh - 40%);
+    left: 50%;
+    position: absolute;
+    margin-left: -50px;
+}
+
+.BTN{
+    text-align: center;
+    margin: 4px ;
+    padding: 8px;
+    margin-top: 20px;
+}

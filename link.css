@@ -1,0 +1,8 @@
+.BTN .link{
+    display:inline-block;
+    background-color: #46A2FD;
+    margin: 4px ;
+    padding: 8px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
